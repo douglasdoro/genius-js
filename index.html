@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Genius</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <div id="container">
+        <h1>Genius</h1>
+        <div id="game-panel">
+            <div class="btn-game btn-red" data-color="red"></div>
+            <div class="btn-game btn-green" data-color="green"></div>
+            <div class="btn-game btn-blue" data-color="blue"></div>
+            <div class="btn-game btn-yellow" data-color="yellow"></div>
+        </div>
+        <div id="game-info">
+            <button id="btn-play">Jogar</button>
+            <p>Recorde: <span id="record"></span></p>
+            <p id="level" class="hidden">Seu nível: <span></span></p>
+        </div>
+    </div>
+
+    <audio id="audio-red">
+        <source src="/assets/audio/do.mp3" type="audio/mpeg">
+        Seu navegador não suporta audio.
+    </audio>
+    <audio id="audio-green">
+        <source src="/assets/audio/re.mp3" type="audio/mpeg">
+        Seu navegador não suporta audio.
+    </audio>
+    <audio id="audio-blue">
+        <source src="/assets/audio/mi.mp3" type="audio/mpeg">
+        Seu navegador não suporta audio.
+    </audio>
+    <audio id="audio-yellow">
+        <source src="assets/audio/fa.mp3" type="audio/mpeg">
+        Seu navegador não suporta audio.
+    </audio>
+    <audio id="audio-lose">
+        <source src="/assets/audio/lose.wav" type="audio/mpeg">
+        Seu navegador não suporta audio.
+    </audio>
+    <script async src="/js/script.js"></script>
+</body>
+
+</html>
